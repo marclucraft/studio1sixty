@@ -1067,6 +1067,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  #logo {
+    width: 100px;
+  }
+}
+
 #nav-menu-container {
   padding-right: 15px;
 }
@@ -1164,7 +1170,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content {
-  margin-top: 400px;
+  margin-top: 175px;
+}
+
+@media (max-width: 1024px) {
+  .banner-content {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 736px) and (min-width: 415px) {
+  .banner-content {
+    margin-top: 150px;
+  }
 }
 
 .banner-content h1 {
