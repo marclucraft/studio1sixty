@@ -1164,19 +1164,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content {
-  margin-top: 210px;
-}
-
-@media (max-width: 1024px) {
-  .banner-content {
-    margin-top: 100px;
-  }
-}
-
-@media (max-width: 736px) and (min-width: 415px) {
-  .banner-content {
-    margin-top: 150px;
-  }
+  margin-top: 400px;
 }
 
 .banner-content h1 {
