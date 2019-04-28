@@ -1164,7 +1164,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content {
-  margin-top: 175px;
+  margin-top: 210px;
 }
 
 @media (max-width: 1024px) {
@@ -1173,9 +1173,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 768px) and (min-width: 415px) {
+@media (max-width: 736px) and (min-width: 415px) {
   .banner-content {
-    margin-top: 200px;
+    margin-top: 150px;
   }
 }
 
