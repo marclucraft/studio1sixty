@@ -1,0 +1,89 @@
+/* =================================== */
+/*  Footer Styles
+/* =================================== */
+
+
+.footer-area {
+
+    .number {
+        color: $white;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+        a {
+            color: $white!important;
+        }
+    }
+
+    .single-footer-widget {
+
+        text-align: center;
+
+        .icon {
+            margin-bottom: 15px;
+            .lnr {
+                padding: 11px;
+                font-weight: 300;
+                font-size: 40px !important;
+                color: $white;
+            }
+        }
+    }
+}
+
+.footer-widget-wrap {
+    background: $primary-color;
+    color: $white;
+}
+
+.single-footer-widget {
+    @media(max-width: 991px) {
+        margin-bottom: 30px;
+    }
+}
+
+.footer-bottom-wrap {
+    background: $black;
+    color: $white;
+}
+
+.footer-bottom {
+    padding: 15px 0px;
+
+    .social-icons {
+        @media(max-width: 991px) {
+            text-align: left !important;
+            margin-top: 15px;
+        }
+
+        li {
+            display: inline-block;
+
+            a {
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                text-align: center;
+                background: #111111;
+                color: $white;
+                @include transition();
+
+                &:hover {
+                    background: $primary-color;
+                    color: #111111;
+                }
+            }
+        }
+    }
+
+}
+
+
+.footer-text {
+
+    a,
+    i {
+        color: $primary-color;
+    }
+}
