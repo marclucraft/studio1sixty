@@ -31,6 +31,9 @@
 	</head>
 
 	<body>
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.3">
+		</script>
 		<header id="header">
 			<div class="header-top">
 				<div class="container">
@@ -48,7 +51,7 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="#about">About</a></li>
 							<li><a href="#prices">Prices</a></li>
-							<li><a href="#reviews">Reviews</a></li>
+							<li><a href="#social">Social</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav><!-- #nav-menu-container -->
@@ -91,7 +94,15 @@
 						<a href="#contact" class="primary-btn">contact us</a>
 					</div>
 					<div class="col-lg-6 home-about-right">
-						<img class="img-fluid" src="img/about-img.jpg" alt="">
+							<!-- <div id="kenburns">
+									<img src="img/img1.jpg" alt="">
+									<img src="img/img2.jpg" alt="">
+									<img src="img/img3.jpg" alt="">
+									<img src="img/img4.jpg" alt="">
+									<img src="img/img5.jpg" alt="">
+									<img src="img/img6.jpg" alt="">
+									<img src="img/img7.jpg" alt="">
+								  </div> -->
 					</div>
 				</div>
 			</div>
@@ -223,86 +234,36 @@
 		</section>
 		<!-- End prices-area Area -->
 
-		<!-- Start review Area -->
-		<section class="review-area section-gap" id="reviews">
+		<!-- Start social Area -->
+		<section class="social-area section-gap" id="social">
 			<div class="container">
 				<div class="row d-flex justify-content-center">
 					<div class="prices-content pb-70 col-lg-8">
 						<div class="title text-center">
-							<h1 class="mb-10">5 Star Service</h1>
+							<h1 class="mb-10">Keep up to date</h1>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="active-review-carusel">
-						<div class="single-review">
-							<img src="img/chantelle.jpg" alt="">
-							<h4>Chantelle</h4>
-							<div class="star">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-							</div>
-							<p>
-								“Lovely salon, friendly and very good stylists, I would definitely recommend. I had my hair
-								curled at midday today and over 9 hours later I’m still rocking them and they are not going
-								anywhere !!! X”
-							</p>
-						</div>
-						<div class="single-review">
-							<img src="img/toni.jpg" alt="">
-							<h4>Toni</h4>
-							<div class="star">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-							</div>
-							<p>
-								“Had the best colour change with Leanne I've ever had (& I've been many colours over the
-								years at different salons). Great advice and care taken. Highly recommended. :)xx”
-							</p>
-						</div>
-						<div class="single-review">
-							<img src="img/josie.jpg" alt="">
-							<h4>Josie</h4>
-							<div class="star">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-							</div>
-							<p>
-								“It was one of the best massages I have ever had. I had neck, back and shoulder with Toni
-								and it was just what I needed. She was very friendly, but not too chatty, so allowed me to
-								fully relax. It was perfect pressure and I felt all my tension dissappear. It was also a
-								full half an hour treatment. Would definitely recommend.”
-							</p>
-						</div>
-						<div class="single-review">
-							<img src="img/Sandra.jpg" alt="">
-							<h4>Sandra</h4>
-							<div class="star">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-							</div>
-							<p>
-								"Amazing friendly atmosphere nothing is too much trouble. They made sure that I was ok with
-								everything and listened, and I walked out very happy!"
-							</p>
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<a href="https://www.instagram.com/studio1sixty/" target="_blank"><img class="img-fluid"
+								src="img/instagram.jpg" alt=""></a>
+					</div>
+					<div class="col-lg-4">
+						<div class="fb-page"
+							data-href="https://www.facebook.com/Hair-Beauty-Studio-1-Sixty-126873083998176"
+							data-tabs="timeline" data-width="" data-height="" data-small-header="false"
+							data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+							<blockquote cite="https://www.facebook.com/Hair-Beauty-Studio-1-Sixty-126873083998176"
+								class="fb-xfbml-parse-ignore"><a
+									href="https://www.facebook.com/Hair-Beauty-Studio-1-Sixty-126873083998176">Hair &amp;
+									Beauty &#064; Studio 1 Sixty</a></blockquote>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- End review Area -->
+		<!-- End social Area -->
 
 		<!-- start footer Area -->
 		<footer class="footer-area" id="contact">
@@ -342,7 +303,9 @@
 					</div>
 				</div>
 			</div>
-			<div class='googlemap'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2471.4958583101875!2d0.48826301584389187!3d51.72396527967133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8e99d76195807%3A0x2e78243805418b1d!2sStudio+1+Sixty!5e0!3m2!1sen!2suk!4v1560079569942!5m2!1sen!2suk' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe></div>
+			<div class='googlemap'><iframe
+					src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2471.4958583101875!2d0.48826301584389187!3d51.72396527967133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8e99d76195807%3A0x2e78243805418b1d!2sStudio+1+Sixty!5e0!3m2!1sen!2suk!4v1560079569942!5m2!1sen!2suk'
+					width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe></div>
 			<div class="footer-bottom-wrap">
 				<div class="container">
 					<div class="row footer-bottom d-flex justify-content-between align-items-center">

@@ -195,6 +195,7 @@ $(document).ready(function() {
         }
     });
 
+
     //------- Google Map  js --------//  
 
     if (document.getElementById("map")) {
