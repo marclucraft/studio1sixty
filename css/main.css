@@ -1418,6 +1418,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*-------- End Price Area ------------*/
+/*-------- Social Shizzle ------------*/
+.center-fb {
+  text-align: center;
+}
+
 /*-------- Start Common Page Style   -------------*/
 .link-nav {
   margin-top: 10px;
